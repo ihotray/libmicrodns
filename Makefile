@@ -1,5 +1,5 @@
 CC ?= gcc
-DEFS ?= -DHAVE_POLL
+DEFS ?= -DHAVE_POLL -D_SYS_POLL_H
 EXTRA_CFLAGS ?= -Wall -Werror
 CFLAGS += $(DEFS) $(EXTRA_CFLAGS)
 
